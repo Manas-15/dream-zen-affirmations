@@ -11,6 +11,7 @@ const AffirmationCard = ({ text, delay = 0 }: AffirmationCardProps) => {
       className="p-6 gradient-card shadow-soft hover:shadow-glow transition-all duration-500 border-primary/10 animate-float"
       style={{ animationDelay: `${delay}s` }}
     >
+      <div></div>
       <p className="text-foreground/90 text-center leading-relaxed">
         "{text}"
       </p>
